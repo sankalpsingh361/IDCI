@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+.in-1{
+    font-size: 12px;
+    color: rgb(32, 31, 31);
+  
+}
+.india{
+    padding-top: 20px;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 120px;
+    z-index: 10000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.5s;
+}
+header.sticky{
+    background: #fff;
+    padding: 20px 120px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+}
+header .logo{
+    color: rgb(32, 31, 31);
+    font-weight: 700;
+    font-size: 2em;
+    text-decoration: none;
+   line-height: 10px;
+   
+}
+header.sticky .logo{
+color: #111;
+}
+header.sticky .in-1{
+    color: #111;
+    }
+
+header .navigation{
+    position: relative;
+    display: flex;
+
+}
+header .navigation li{
+    list-style: none;
+    margin-left: 30px;
+}
+header .navigation li a{
+    text-decoration: none;
+    color: rgb(32, 31, 31);
+    font-weight: 300;
+}
+header.sticky .navigation li a{
+    color: #111;
+}
+header.sticky .vary1{
+    color: #1ba083;
+}
+header .navigation li a:hover{
+    color: #1ba083;
+   
+}
+.vary1:hover {
+    color: #1ba083;
+    background: #fff;
+   
+}
+.vary1{
+    margin-left: 180px;
+    color: #1ba083;
+    border: 1px solid #1ba083;
+    padding: 10px 24px;
+    border-radius: 5px;
+}
+
+.client{
+    display: flex;
+   
+}
+.sdt{
+    width: 700px;
+    height: 700px;
+    margin-right: 60px;
+    margin-top: 40px;
+}
+
+.client-1{
+    padding-top: 250px;
+   padding-left: 150px;
+}
+.sub-content{
+    font-size: 48px;
+    line-height: 50px;
+    font-weight: 600;
+}
+.client-1 p{
+    font-size: 18px;
+    font-weight: 300;
+    padding-top: 30px;
+}
+.but{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 36px;
+    padding-right: 36px;
+   font-weight: 400;
+    margin-top: 50px;
+    
+    border: none;
+    color: #fff;
+    background: #1daf8f;
+    font-size: 16px;
+    border: 1px solid #1daf8f;
+}
+.container{
+    background: #fff;
+   
+}
+.content{
+    display: flex;
+  padding-top: 80px;
+  padding-right: 100px;
+    padding-left: 100px;
+  padding-bottom: 50px;
+}
+.content-1{
+   justify-content: center;
+    margin-right: 30px;
+    margin-left: 30px;
+    background: #fff;
+    box-shadow: 0 4px 8px 0 rgba(53, 53, 53, 0.2), 0 6px 12px 0 rgba(49, 49, 49, 0.19);
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width: 500px;
+   
+}
+.first{
+    width: 90px;
+    height: 30px;
+   
+}
+.first1{
+    border-radius: 50%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: rgb(243, 246, 252);
+    text-align: center;
+    
+}
+.second{
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 10px;
+    padding-bottom: 12px;
+    text-align: center;
+}
+
+.export{
+    display: flex;
+   justify-content: center;
+}
+.export .fas{
+    color: #1daf8f;
+    font-size: 14px;
+    padding: 1px;
+}
+.content1{
+    display: flex;
+  padding-top: 80px;
+  padding-right: 500px;
+    padding-left: 100px;
+  padding-bottom: 50px;
+
+}
+.content1-1{
+   justify-content: center;
+    margin-right: 30px;
+    margin-left: 30px;
+    background: #fff;
+    box-shadow: 0 4px 8px 0 rgba(53, 53, 53, 0.2), 0 6px 12px 0 rgba(49, 49, 49, 0.19);
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width: 300px;
+   
+}
+.first3{
+    width: 90px;
+    height: 30px;
+   
+}
+.first2{
+    border-radius: 50%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: rgb(243, 246, 252);
+    text-align: center;
+    
+}
+.second1{
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 10px;
+    padding-bottom: 12px;
+    text-align: center;
+}
+
+.export1{
+    display: flex;
+   justify-content: center;
+}
+.export1 .fas{
+    color: #1daf8f;
+    font-size: 14px;
+    padding: 1px;
+}
