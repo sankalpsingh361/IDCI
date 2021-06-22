@@ -82,20 +82,20 @@ header.sticky .navigation li a {
   color: #111;
 }
 header.sticky .vary1 {
-  color: #00ffc8;
+  background-color:#1daf8f ;
 }
 header .navigation li a:hover {
-  color: #00ffc8;
+  color: #000000;
 }
 .vary1:hover {
-  color: #f50000;
+  color: #000000;
   background: rgb(255, 255, 255);
 }
 .vary1 {
   /* margin-left: 180px; */
-  color: #00ffc8;
-  border: 1px solid #00ff26;
-  padding: 5px 24px;
+  /* color: #00ffc8; */
+  border: 1px solid #1daf8f;
+  padding: 5px 10px;
   border-radius: 5px;
 }
 
@@ -198,7 +198,7 @@ header .navigation li a:hover {
   padding-bottom: 10px;
   padding-left: 36px;
   padding-right: 36px;
-  margin-top: 80px;
+  margin-top: 50px;
   margin-right: 150px;
   border: none;
   background: #1daf8f;
@@ -387,16 +387,16 @@ header .navigation li a:hover {
   height: 5px;
   color: rgb(241, 66, 95);
 }
-.me12 {
+/* .me12 {
   width: 70px;
   margin-right: 20px;
   margin-top: 16px;
   margin-bottom: 10px;
   background: #1daf8f;
   border: 0 none;
-  height: 5px;
+  height: 8px;
   color: #1daf8f;
-}
+} */
 
 .us {
   font-size: 36px;
@@ -871,8 +871,8 @@ header .navigation li a:hover {
   padding-left: 350px;
 }
 .btn:hover {
-  color: #1ba083;
-  background: #fff;
+  color: #000000;
+  background:white;
 }
 .btn1:hover {
   color: #1ba083;
