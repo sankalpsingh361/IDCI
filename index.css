@@ -87,16 +87,13 @@ header.sticky .vary1 {
 header .navigation li a:hover {
   color: #000000;
 }
-.vary1:hover {
-  color: #000000;
-  background: rgb(255, 255, 255);
-}
 .vary1 {
-  /* margin-left: 180px; */
-  /* color: #00ffc8; */
   border: 1px solid #1daf8f;
   padding: 5px 10px;
-  border-radius: 5px;
+  background-color: #1daf8f;
+}
+.vary1:hover {
+  background: rgb(255, 255, 255);
 }
 
 /* 
@@ -202,16 +199,15 @@ header .navigation li a:hover {
   padding-left: 36px;
   padding-right: 36px;
   margin-top: 5px;
-  /* margin-right: 150px; */
   border: none;
   background: #1daf8f;
   border: 1px solid #1daf8f;
   font-size: 16px;
   font-weight: 400;
   text-decoration: none;
-  color: #fff;
+  color: white;
 }
-.btn:hover{
+.btn:hover {
   background-color: #fff;
   color: #000000;
 }
@@ -295,7 +291,6 @@ header .navigation li a:hover {
   background: #1daf8f;
   font-size: 16px;
   border: 1px solid #1daf8f;
-  border-radius: 5px;
 }
 .co2 {
   width: 150px;
@@ -545,7 +540,7 @@ header .navigation li a:hover {
   padding-left: 150px;
   /* padding-top: 150px; */
 }
-.over1{
+.over1 {
   flex-grow: 1;
 }
 .over1 .fa {
@@ -555,16 +550,7 @@ header .navigation li a:hover {
   padding: 8px;
   color: #1ba083;
 }
-/* .over1 {
-  padding-top: 150px;
-  padding-left: 100px;
-} */
-.sdt {
-  /* width: 300px;
-  height: 450px; */
 
-  /* margin-top: 70px; */
-}
 .sdt1 {
   width: 600px;
   height: 600px;
@@ -666,7 +652,6 @@ header .navigation li a:hover {
   background: #fff;
   padding-top: 30px;
   padding-bottom: 30px;
-
   padding-right: 36px;
 }
 .comp {
@@ -690,9 +675,6 @@ header .navigation li a:hover {
 .fle1 {
   display: flex;
   justify-content: flex-start;
-  /* flex-wrap: wrap; */
-  /* margin-left: 70px;
-  margin-right: 100px; */
 }
 .btn9 {
   margin-top: 100px;
@@ -882,10 +864,7 @@ header .navigation li a:hover {
 .testi .intent {
   padding-left: 350px;
 }
-/* .btn:hover {
-  color: #000000;
-  background: white;
-} */
+
 .btn1:hover {
   color: #1ba083;
   background: #fff;
@@ -1145,10 +1124,7 @@ header .navigation li a:hover {
   .about .intent {
     padding-left: 50px;
   }
-  /* .wall {
-    height: 485px;
-    width: 520px;
-  } */
+
   .over {
     padding-left: 20px;
   }
@@ -1157,16 +1133,18 @@ header .navigation li a:hover {
     padding-right: 20px;
     margin-top: 30px;
     margin-right: 100px;
-    border-radius: 5px;
   }
-  header{
+  header {
     padding: 0px 30px;
   }
-  header.sticky{
+  header.sticky {
     padding: 0px 30px;
   }
-  .btn{
+  .btn {
     font-size: 14px;
+  }
+  .huge {
+    flex-direction: column;
   }
 }
 
@@ -1201,20 +1179,34 @@ header .navigation li a:hover {
   header.sticky {
     padding: 0px 30px;
   }
-  .over1{
+  .over1 {
     flex-grow: 1.5;
   }
-  .sdt{
+  .sdt {
     flex-grow: 0.8;
   }
-  .overlay{
+  .overlay {
     flex-grow: 1.5;
   }
-  .wall{
+  .wall {
     flex-grow: 0.8;
   }
   .huge {
     flex-direction: column;
+  }
+  .us {
+    font-size: 30px;
+  }
+  .us1 {
+    font-size: 30px;
+  }
+  .intent1 {
+    font-size: 16px;
+    padding-left: 180px;
+  }
+  .huge4 {
+    font-size: 30px;
+    font-weight: bold;
   }
 }
 
@@ -1256,10 +1248,7 @@ header .navigation li a:hover {
   .legal {
     font-size: 25px;
   }
-  .sdt {
-    /* height: 350px;
-    width: 225px; */
-  }
+
   .over {
     padding-left: 45px;
   }
@@ -1312,7 +1301,137 @@ header .navigation li a:hover {
   .view2 {
     font-size: 12px;
   }
-  .stay1{
+  .stay1 {
     padding-left: 10px;
+  }
+  .view1 {
+    padding-top: 5px;
+    padding-bottom: 1px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .huge1 {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    margin-right: 10px;
+    font-size: 14px;
+  }
+  .view2 {
+    font-size: 10px;
+  }
+  .better {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 502px) {
+  .text2 {
+    font-size: 24px;
+    line-height: 28px;
+  }
+  .ab {
+    font-size: 13px;
+  }
+  .btn {
+    font-size: 12px;
+    color: #fff;
+  }
+  .symbol-bar {
+    font-size: 14px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+  .com {
+    width: 150px;
+    height: 40px;
+  }
+  .com1 {
+    width: 150px;
+    height: 55px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+  }
+  .com2 {
+    width: 150px;
+    height: 40px;
+  }
+  .com3 {
+    width: 150px;
+    height: 40px;
+  }
+  .us {
+    font-size: 20px;
+  }
+  .intent {
+    font-size: 14px;
+  }
+  .date2 {
+    padding-right: 5px;
+  }
+  .secure1 {
+    font-size: 25px;
+  }
+  .secure2 {
+    font-size: 12px;
+  }
+  .sub {
+    font-weight: bold;
+    font-size: 16px;
+  }
+  .sub1 {
+    font-weight: bold;
+    font-size: 16px;
+  }
+  .smile {
+    padding-bottom: 60px;
+  }
+  .ready {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  .grow {
+    font-size: 20px;
+  }
+  .btn3 {
+    font-size: 13px;
+  }
+  .us1 {
+    font-size: 20px;
+  }
+  .intent1 {
+    font-size: 14px;
+  }
+  .btn1 {
+    font-size: 12px;
+  }
+  .huge1 {
+    font-size: 12px;
+  }
+  .huge4 {
+    font-size: 20px;
+  }
+  .idio2 {
+    font-size: 14px;
+  }
+  .symbol4 {
+    flex-wrap: wrap;
+  }
+  .but {
+    font-size: 12px;
+  }
+  .btn9 {
+    font-size: 12px;
+  }
+  .view2 {
+    line-height: 20px;
+  }
+  .btn10 {
+    font-size: 12px;
+  }
+  .ready1 {
+    padding-top: 80px;
+    padding-bottom: 80px;
   }
 }
