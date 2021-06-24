@@ -23,7 +23,7 @@ body {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 600px;
+  height: 80vh;
   /* width:100%; */
 }
 .in-1 {
@@ -181,7 +181,8 @@ header .navigation li a:hover {
   /* margin-right: 130px; */
 }
 .overlay {
-  padding-top: 120px;
+
+  padding-top: 40px;
   /* margin-left: 40px; */
 }
 .text {
@@ -310,7 +311,7 @@ header .navigation li a:hover {
   justify-content: center;
   /* margin-left: 100px;
   margin-right: 100px; */
-  transform: translate(0, -30%);
+  transform: translate(0, -15%);
   background: #fff;
   border-radius: 20px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -987,18 +988,11 @@ header .navigation li a:hover {
   /* padding-left: 100px;
   padding-right: 100px; */
 }
-.stay1 {
-  padding-left: 140px;
-}
+
 .goog {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* list-style: none;
-  padding-left: 65px;
-  padding-top: 30px;
-  padding-bottom: 10px;
-  justify-content: space-evenly; */
 }
 
 .icon1 {
@@ -1302,7 +1296,7 @@ header .navigation li a:hover {
     font-size: 12px;
   }
   .stay1 {
-    padding-left: 10px;
+    padding-top: 20px;
   }
   .view1 {
     padding-top: 5px;
@@ -1322,6 +1316,7 @@ header .navigation li a:hover {
     font-size: 10px;
   }
   .better {
+    flex-direction: column;
     font-size: 12px;
   }
 }
@@ -1435,5 +1430,8 @@ header .navigation li a:hover {
     padding-top: 80px;
     padding-bottom: 80px;
   }
+ .better {
+  flex-direction:column;
+}
 
 }
