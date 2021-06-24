@@ -23,43 +23,44 @@ body {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 80vh;
+  height: 75vh;
+  background-color: yellow;
   /* width:100%; */
 }
 .in-1 {
   font-size: 13px;
-  color: #fff;
+  color:black;
 }
 .slide-navbar {
   padding-top: 20px;
 }
 
 header {
-  position: fixed;
+  /* position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  padding: 0px 120px;
+  padding: 0px 120px; */
   z-index: 10000;
   display: flex;
   justify-content: space-between;
   align-items: center;
   transition: 0.4s;
+  padding: 15px 0px;
 }
 header.sticky {
-  background: rgb(239, 239, 239);
-  padding: 10px 120px;
+  padding: 20px 0px;
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
 }
 header .logo {
-  color: #fff;
+  color:crimson;
   font-weight: 700;
   font-size: 2em;
   text-decoration: none;
   line-height: 10px;
 }
 header.sticky .logo {
-  color: #111;
+  color:crimson;
 }
 header.sticky .in-1 {
   color: #111;
@@ -75,11 +76,17 @@ header .navigation li {
 }
 header .navigation li a {
   text-decoration: none;
-  color: #fff;
-  font-weight: 300;
+  color: black;
+  font-weight:500px;
+}
+header .navigation li a:hover{
+  color: crimson;
 }
 header.sticky .navigation li a {
   color: #111;
+}
+header.sticky .navigation li a:hover {
+  color:crimson;
 }
 header.sticky .vary1 {
   background-color: #1daf8f;
@@ -89,7 +96,7 @@ header .navigation li a:hover {
 }
 .vary1 {
   border: 1px solid #1daf8f;
-  padding: 5px 10px;
+  padding: 10px 20px;
   background-color: #1daf8f;
 }
 .vary1:hover {
@@ -144,8 +151,15 @@ header .navigation li a:hover {
 .div-sub {
   display: flex;
 }
+.slideshow-container{
+  background-color:green;
+}
 .overla {
-  height: 660px;
+  height:100%;
+  background-color:red;
+}
+.mySlides{
+  border-color: pink;
 }
 /* slide-buttons */
 .prev,
@@ -181,18 +195,20 @@ header .navigation li a:hover {
   /* margin-right: 130px; */
 }
 .overlay {
-
-  padding-top: 40px;
+border-color: purple;
+  /* padding-top: 40px; */
   /* margin-left: 40px; */
 }
 .text {
-  color: #f2f2f2;
+
+  color:#f2f2f2;
   /* padding-left: 100px; */
   display: flex;
-  position: relative;
+  /* position: relative; */
   align-items: center;
+  justify-content: center;
   height: 100%;
-  padding-top: 80px;
+  /* padding-top: 80px; */
 }
 .btn {
   padding-top: 10px;
