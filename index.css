@@ -1434,4 +1434,7 @@ header .navigation li a:hover {
     padding-top: 80px;
     padding-bottom: 80px;
   }
+  .overlay {
+    padding-top: 80px;
+  }
 }
