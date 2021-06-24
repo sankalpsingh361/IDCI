@@ -1333,6 +1333,7 @@ header .navigation li a:hover {
   }
   .ab {
     font-size: 13px;
+    padding-bottom: 20px;
   }
   .btn {
     font-size: 12px;
@@ -1434,7 +1435,5 @@ header .navigation li a:hover {
     padding-top: 80px;
     padding-bottom: 80px;
   }
-  .overlay {
-    padding-top: 80px;
-  }
+
 }
