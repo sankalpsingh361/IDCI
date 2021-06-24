@@ -15,7 +15,7 @@ body {
 .main-container {
   max-width: 1300px;
   margin: auto;
-  padding: 0px 20px;
+  padding: 0px 30px;
   height: 100%;
 }
 .bg-image {
@@ -47,7 +47,7 @@ header {
   transition: 0.4s;
 }
 header.sticky {
-  background: #fff;
+  background: rgb(239, 239, 239);
   padding: 10px 120px;
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
 }
@@ -82,7 +82,7 @@ header.sticky .navigation li a {
   color: #111;
 }
 header.sticky .vary1 {
-  background-color:#1daf8f ;
+  background-color: #1daf8f;
 }
 header .navigation li a:hover {
   color: #000000;
@@ -179,8 +179,8 @@ header .navigation li a:hover {
   background-color: rgba(0, 0, 0, 0.8);
 }
 .wall {
-  width: 620px;
-  height: 585px;
+  /* width: 620px;
+  height: 585px; */
   /* margin-right: 130px; */
 }
 .overlay {
@@ -192,23 +192,28 @@ header .navigation li a:hover {
   /* padding-left: 100px; */
   display: flex;
   position: relative;
+  align-items: center;
+  height: 100%;
+  padding-top: 80px;
 }
 .btn {
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 36px;
   padding-right: 36px;
-  margin-top: 50px;
-  margin-right: 150px;
+  margin-top: 5px;
+  /* margin-right: 150px; */
   border: none;
   background: #1daf8f;
   border: 1px solid #1daf8f;
-}
-.btn a {
   font-size: 16px;
   font-weight: 400;
   text-decoration: none;
   color: #fff;
+}
+.btn:hover{
+  background-color: #fff;
+  color: #000000;
 }
 .ab {
   font-weight: 400;
@@ -290,6 +295,7 @@ header .navigation li a:hover {
   background: #1daf8f;
   font-size: 16px;
   border: 1px solid #1daf8f;
+  border-radius: 5px;
 }
 .co2 {
   width: 150px;
@@ -299,10 +305,11 @@ header .navigation li a:hover {
 .sym {
   width: 200px;
   height: 80px;
-  margin-top: 40px;
+  /* margin-top: 40px; */
 }
 .symbol4 {
   display: flex;
+  justify-content: space-between;
 }
 .symbol1 {
   justify-content: center;
@@ -519,6 +526,7 @@ header .navigation li a:hover {
   /* padding-left: 100px;
   padding-right: 100px; */
   display: flex;
+  margin-bottom: 100px;
 }
 .table1 {
   /* padding-left: 100px;
@@ -537,6 +545,9 @@ header .navigation li a:hover {
   padding-left: 150px;
   /* padding-top: 150px; */
 }
+.over1{
+  flex-grow: 1;
+}
 .over1 .fa {
   border-radius: 5px;
   background: #fff;
@@ -549,8 +560,9 @@ header .navigation li a:hover {
   padding-left: 100px;
 } */
 .sdt {
-  width: 600px;
-  height: 450px;
+  /* width: 300px;
+  height: 450px; */
+
   /* margin-top: 70px; */
 }
 .sdt1 {
@@ -870,10 +882,10 @@ header .navigation li a:hover {
 .testi .intent {
   padding-left: 350px;
 }
-.btn:hover {
+/* .btn:hover {
   color: #000000;
-  background:white;
-}
+  background: white;
+} */
 .btn1:hover {
   color: #1ba083;
   background: #fff;
@@ -1014,7 +1026,6 @@ header .navigation li a:hover {
   display: flex;
   list-style: none;
   justify-content: space-between;
-
 }
 .better {
   display: flex;
@@ -1023,7 +1034,7 @@ header .navigation li a:hover {
   padding-top: 100px;
   justify-content: space-between;
 }
-.goog{
+.goog {
   padding-top: 10px;
   padding-bottom: 20px;
 }
@@ -1115,55 +1126,193 @@ header .navigation li a:hover {
   border: 1px solid #1ba083;
 }
 
-/* MEDIA QUERIES
+/* MEDIA QUERIES */
 
-@media screen and (max-width: 1330px) {
-  .text2 
-  {
-    font-size: 28px;
-  }
-  .ab 
-  {
-    font-size: 15px;
-  }
-  .goog 
-  {
-    display: flex;
-    list-style: none;
-    flex-wrap: wrap;
-    justify-content: left;
-  }
-
-}
-
-@media screen and (max-width: 1200px){
-  header .navigation li a {
-    font-size: 15px;
-  }
-  header.sticky {
- padding: 0px 110px;
-}
-}
-
-@media screen and (max-width: 1100px){
-
-} */
- 
-@media screen and (max-width: 1090px){
-  .date{
+@media screen and (max-width: 1090px) {
+  .date {
     flex-direction: column;
     align-items: center;
   }
   .mobile {
-   order: 1;
-   width: 80%;
-   height: 80%;
-   margin-bottom: 50px;
+    order: 1;
+    width: 50%;
+    height: 50%;
+    margin-bottom: 50px;
   }
-  .date2{
+  .date2 {
     order: 2;
   }
-  .about .intent{
+  .about .intent {
     padding-left: 50px;
+  }
+  /* .wall {
+    height: 485px;
+    width: 520px;
+  } */
+  .over {
+    padding-left: 20px;
+  }
+  .but {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 30px;
+    margin-right: 100px;
+    border-radius: 5px;
+  }
+  header{
+    padding: 0px 30px;
+  }
+  header.sticky{
+    padding: 0px 30px;
+  }
+  .btn{
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 975px) {
+  header {
+    padding: 0px 30px;
+  }
+  .text2 {
+    font-size: 30px;
+  }
+  .ab {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .btn {
+    margin-top: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .com2 {
+    margin: 10px;
+  }
+  .com3 {
+    margin: 10px;
+  }
+  .com {
+    margin: 10px;
+  }
+  .com1 {
+    margin: 10px;
+  }
+  header.sticky {
+    padding: 0px 30px;
+  }
+  .over1{
+    flex-grow: 1.5;
+  }
+  .sdt{
+    flex-grow: 0.8;
+  }
+  .overlay{
+    flex-grow: 1.5;
+  }
+  .wall{
+    flex-grow: 0.8;
+  }
+  .huge {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .wall {
+    display: none;
+  }
+  header {
+    padding: 0px 30px;
+  }
+  header .logo {
+    font-size: 1.5em;
+  }
+  .in-1 {
+    font-size: 11px;
+  }
+  .navigation li {
+    list-style: none;
+    font-size: 13px;
+  }
+  .vary1 {
+    padding: 5px 1px;
+  }
+  .ab {
+    padding-bottom: 40px;
+  }
+  .about {
+    align-items: baseline;
+  }
+  .us {
+    font-size: 25px;
+  }
+  .us1 {
+    font-size: 25px;
+  }
+  .intent1 {
+    padding-left: 30px;
+  }
+  .legal {
+    font-size: 25px;
+  }
+  .sdt {
+    /* height: 350px;
+    width: 225px; */
+  }
+  .over {
+    padding-left: 45px;
+  }
+  .para32 {
+    margin-right: 20px;
+  }
+  .huge {
+    flex-direction: column;
+  }
+  .huge1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .huge2 {
+    margin-top: 30px;
+  }
+  .huge3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  .huge4 {
+    font-size: 25px;
+    font-weight: bold;
+  }
+  .but {
+    margin-left: 30px;
+  }
+  .about {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .fle1 {
+    flex-direction: column;
+  }
+  .first1 {
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 20px;
+  }
+  .first3 {
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 20px;
+  }
+
+  .arial {
+    padding-left: 20px;
+    padding-bottom: 20px;
+  }
+  .view2 {
+    font-size: 12px;
+  }
+  .stay1{
+    padding-left: 10px;
   }
 }
