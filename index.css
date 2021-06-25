@@ -126,8 +126,8 @@ header .navigation li a:hover {
   font-weight: 400;
   text-decoration: none;
 }
-.btn a{
-  color:black;
+.btn a {
+  color: black;
 }
 .btn:hover {
   background-color: #fff;
@@ -285,7 +285,7 @@ header .navigation li a:hover {
 .about {
   text-align: center;
   padding-top: 100px;
-  display:flex;
+  display: flex;
 }
 .me2 {
   margin-top: 24px;
@@ -877,7 +877,7 @@ header .navigation li a:hover {
   color: #4a4b4d;
   line-height: 30px;
 }
-.icon:hover{
+.icon:hover {
   color: crimson;
   font-weight: 500;
 }
@@ -1181,12 +1181,12 @@ header .navigation li a:hover {
   }
   .smile {
     flex-direction: column;
-    
   }
-  .draw{
-    padding-left: 80px;
+  .sdt{
+    display: none;
   }
 }
+
 
 @media screen and (max-width: 502px) {
   .text2 {
@@ -1224,7 +1224,7 @@ header .navigation li a:hover {
     width: 150px;
     height: 40px;
   }
-  .about{
+  .about {
     flex-direction: column;
     align-items: center;
   }
@@ -1232,7 +1232,7 @@ header .navigation li a:hover {
     font-size: 20px;
     text-decoration: underline;
   }
-  .me2{
+  .me2 {
     display: none;
   }
   .intent {
@@ -1281,7 +1281,7 @@ header .navigation li a:hover {
   .huge1 {
     font-size: 12px;
   }
-  .me-2{
+  .me-2 {
     display: none;
   }
   .huge4 {
@@ -1300,20 +1300,20 @@ header .navigation li a:hover {
   .btn9 {
     font-size: 12px;
   }
-  .view1{
+  .view1 {
     padding-left: 20px;
   }
   .view2 {
     padding-top: 10px;
     line-height: 20px;
   }
-  .export{
+  .export {
     padding-top: 20px;
   }
-  .view3{
+  .view3 {
     padding-top: 10px;
   }
-  .view4{
+  .view4 {
     padding-bottom: 0px;
   }
   .btn10 {
@@ -1325,5 +1325,8 @@ header .navigation li a:hover {
   }
   .better {
     flex-direction: column;
+  }
+  .sdt{
+    display: none;
   }
 }
