@@ -62,7 +62,7 @@ header .navigation li {
 header .navigation li a {
   text-decoration: none;
   color: rgb(32, 31, 31);
-  font-weight: 300;
+  font-weight: 500;
 }
 header.sticky .navigation li a {
   color: #111;
