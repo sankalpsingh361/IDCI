@@ -114,17 +114,20 @@ header .navigation li a:hover {
   font-size: 16px;
   border: 1px solid #1daf8f;
 }
-.review {    /*whole container*/
+.review {
+  /*whole container*/
   display: flex;
   background: #fff;
   margin-bottom: 50px;
 }
-.nath {     /*side green part*/
+.nath {
+  /*side green part*/
   background: rgb(100, 190, 186);
   padding-top: 40px;
   padding-bottom: 40px;
 }
-.view {    /*logo image*/
+.view {
+  /*logo image*/
   height: 70px;
   width: 70px;
   border-radius: 50%;
@@ -145,14 +148,16 @@ header .navigation li a:hover {
 .export .fas {
   color: #1ba083;
 }
-.view5 {    /*heading*/
+.view5 {
+  /*heading*/
   padding-left: 30px;
   padding-top: 10px;
   font-size: 22px;
   color: #111;
   font-weight: 500;
 }
-.view2 {      /*paragraph*/
+.view2 {
+  /*paragraph*/
   padding-left: 30px;
   padding-top: 10px;
   padding-right: 30px;
@@ -162,14 +167,16 @@ header .navigation li a:hover {
   padding-bottom: 10px;
   font-size: 14px;
 }
-.view3 {      /*name*/
+.view3 {
+  /*name*/
   padding-left: 30px;
   padding-top: 10px;
   font-size: 18px;
   color: #111;
   font-weight: 500;
 }
-.view4 {        /*post*/
+.view4 {
+  /*post*/
   padding-left: 30px;
   color: #111;
   padding-bottom: 10px;
@@ -181,7 +188,6 @@ header .navigation li a:hover {
   color: #1ba083;
   padding-right: 10px;
 }
-
 
 /* MEDIA QUIRES */
 
@@ -236,23 +242,23 @@ header .navigation li a:hover {
   .client-1 p {
     font-size: 15px;
   }
-  .view{
+  .view {
     margin-left: 10px;
   }
-  .view1{
+  .view1 {
     padding-top: 15px;
     padding-bottom: 15px;
     padding-left: 30px;
   }
-  .view5{
+  .view5 {
     padding-left: 30px;
     padding-top: 10px;
     font-size: 18px;
   }
-  .view3{
-    font-size:18px ;
+  .view3 {
+    font-size: 18px;
   }
-  .view2{
+  .view2 {
     padding-left: 30px;
     padding-top: 10px;
     padding-right: 30px;
@@ -260,28 +266,28 @@ header .navigation li a:hover {
     padding-bottom: 10px;
     font-size: 12px;
   }
-  .review .view1 .view2 .fa{
+  .review .view1 .view2 .fa {
     font-size: 30px;
   }
 }
 @media screen and (max-width: 502px) {
-  .view{
+  .view {
     margin-left: 10px;
   }
-  .view1{
+  .view1 {
     padding-top: 15px;
     padding-bottom: 15px;
     padding-left: 30px;
   }
-  .review .view1 .view2 .fa{
+  .review .view1 .view2 .fa {
     font-size: 25px;
   }
-  .view5{
+  .view5 {
     padding-left: 30px;
     padding-top: 8px;
     font-size: 16px;
   }
-  .view2{
+  .view2 {
     padding-left: 30px;
     padding-top: 7px;
     padding-right: 30px;
@@ -289,13 +295,13 @@ header .navigation li a:hover {
     padding-bottom: 7px;
     font-size: 12px;
   }
-  .view3{
-    font-size:16px ;
+  .view3 {
+    font-size: 16px;
   }
   .but {
     font-size: 12px;
-}
- .client-1 p{
-   font-size: 14px;
- }
+  }
+  .client-1 p {
+    font-size: 14px;
+  }
 }
