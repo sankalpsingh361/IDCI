@@ -189,6 +189,67 @@ header .navigation li a:hover {
   padding-right: 10px;
 }
 
+.footer {
+  background: rgb(246, 246, 253);
+  margin-top: 300px;
+}
+.goog {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icon1 {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+}
+.better {
+  display: flex;
+  list-style: none;
+  padding-bottom: 30px;
+  padding-top: 100px;
+  justify-content: space-between;
+}
+.icon {
+  text-decoration: none;
+  font-weight: 300;
+  font-size: 14px;
+  color: #4a4b4d;
+  line-height: 30px;
+}
+
+.hear .fa {
+  color: red;
+}
+.hear {
+  margin-top: 10px;
+}
+.phone {
+  color: rgb(0, 110, 255);
+  margin-top: 10px;
+}
+.techno {
+  font-weight: 800;
+  padding-bottom: 20px;
+}
+.ico .fa:hover {
+  color: white;
+  background-color: red;
+}
+
+.ico .fa {
+  text-decoration: none;
+  margin-left: 20px;
+  margin-top: 10px;
+  border-radius: 6px;
+  padding: 10px;
+  background: rgba(197, 195, 195, 0.829);
+  color: #111;
+}
+
 /* MEDIA QUIRES */
 
 @media screen and (max-width: 1090px) {
