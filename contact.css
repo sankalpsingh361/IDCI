@@ -19,13 +19,13 @@ body {
   height: 100%;
 }
 .in-1 {
-    font-size: 13px;
-    color: black;
-  }
-  .slide-navbar {
-    padding-top: 20px;
-  }
-header {  
+  font-size: 13px;
+  color: black;
+}
+.slide-navbar {
+  padding-top: 20px;
+}
+header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -37,11 +37,11 @@ header.sticky {
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
 }
 header .logo {
-    color: crimson;
-    font-weight: 700;
-    font-size: 2em;
-    text-decoration: none;
-    line-height: 10px;
+  color: crimson;
+  font-weight: 700;
+  font-size: 2em;
+  text-decoration: none;
+  line-height: 10px;
 }
 header.sticky .logo {
   color: crimson;
@@ -112,7 +112,6 @@ header .navigation li a:hover {
   /* padding-right: 50px; */
   border-radius: 10px;
   padding-bottom: 40px;
-  
 }
 .create {
   text-align: center;
@@ -169,35 +168,36 @@ header .navigation li a:hover {
   border-radius: 8px;
 }
 .footer {
-  background: rgb(246, 246, 253);  
+  background: rgb(246, 246, 253);
   margin-top: 300px;
 }
 .goog {
-        padding-top: 10px;
-        padding-bottom: 20px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .icon1 {
-    display: flex;
-    list-style: none;
-    justify-content: space-between;
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
 }
 .better {
-    display: flex;
-    list-style: none;
-    padding-bottom: 30px;
-    padding-top: 100px;
-    justify-content: space-between;
+  display: flex;
+  list-style: none;
+  padding-bottom: 30px;
+  padding-top: 100px;
+  justify-content: space-between;
 }
 .icon {
-    text-decoration: none;
-    font-weight: 300;
-    font-size: 14px;
-    color: #4a4b4d;
-    line-height: 30px;}
+  text-decoration: none;
+  font-weight: 300;
+  font-size: 14px;
+  color: #4a4b4d;
+  line-height: 30px;
+}
 
 .hear .fa {
   color: red;
@@ -214,18 +214,18 @@ header .navigation li a:hover {
   padding-bottom: 20px;
 }
 .ico .fa:hover {
-    color: white;
-    background-color: red;
+  color: white;
+  background-color: red;
 }
 
 .ico .fa {
-    text-decoration: none;
-    margin-left: 20px;
-    margin-top: 10px;
-    border-radius: 6px;
-    padding: 10px;
-    background: rgba(197, 195, 195, 0.829);
-    color: #111;
+  text-decoration: none;
+  margin-left: 20px;
+  margin-top: 10px;
+  border-radius: 6px;
+  padding: 10px;
+  background: rgba(197, 195, 195, 0.829);
+  color: #111;
 }
 .feature-sec {
   display: flex;
@@ -258,35 +258,33 @@ header .navigation li a:hover {
 }
 
 @media screen and (max-width: 975px) {
-    .contact-us{
-        padding-top: 80px;
-        flex-direction: column;
-        text-align:center;
-    }
-    .contact-1{
-        padding-top: 50px;
-        padding-bottom: 80px;
-    }
-    .contact-2{
-        align-self: center;
-        width:450px ;
-        margin-left: 0px;
-    }
-    .footer{
-        padding-top: 100px;
-    }
-
-    
+  .contact-us {
+    padding-top: 80px;
+    flex-direction: column;
+    text-align: center;
+  }
+  .contact-1 {
+    padding-top: 50px;
+    padding-bottom: 80px;
+  }
+  .contact-2 {
+    align-self: center;
+    width: 450px;
+    margin-left: 0px;
+  }
+  .footer {
+    padding-top: 100px;
+  }
 }
 
 @media screen and (max-width: 650px) {
-    .better{
-        flex-direction: column;
-        font-size: 12px;
-        margin-top: 100px;
-    }
-    .techno {
-        padding-top: 20px;
-        padding-bottom: 0px;
-      }
+  .better {
+    flex-direction: column;
+    font-size: 12px;
+    margin-top: 100px;
+  }
+  .techno {
+    padding-top: 20px;
+    padding-bottom: 0px;
+  }
 }
