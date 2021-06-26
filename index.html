@@ -4,15 +4,11 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-
   <title>Idci | Home</title>
   <link href="index.css" rel="stylesheet" />
-
   <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
     integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
-
   <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
-
   <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 </head>
 
@@ -25,15 +21,19 @@
         <p class="in-1">Intentional Defaulter Corporate of India</p>
       </div>
       <!-- NAVBAR -->
-      <ul class="navigation">
+      <ul id="menu" class="navigation">
         <li><a href="#">Home</a></li>
         <li><a href="#about">Services</a></li>
         <li><a href="ourclient.html">Clients</a></li>
         <li><a href="creview.html">Clients Review</a></li>
         <li><a class="vary1" href="contact.html">Contact Us</a></li>
       </ul>
+      <div class="hamburger">
+        <span onclick="myFunction()">&#9776;</span>
+      </div>
     </header>
   </div>
+  
   <div class="bg-image">
     <div class="main-container">
       <div class="text">
@@ -560,6 +560,17 @@
       menuToggle.classList.toggle("active");
       navigation.classList.toggle("active");
     }
+      // hambuger
+      function myFunction(){
+        var x = document.getElementById("menu");
+        if(x.style.display == "block"){
+          x.style.display = "none";
+        }
+        else{
+          x.style.display = "block";
+        }
+      }
+
   </script>
 </body>
 
