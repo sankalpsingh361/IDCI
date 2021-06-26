@@ -1327,10 +1327,12 @@ header .navigation li a:hover {
     display: none;
   }
   .huge4 {
+    padding-bottom: 15px;
     font-size: 20px;
     text-decoration: underline;
   }
   .idio2 {
+    text-align: center;
     font-size: 14px;
   }
   .symbol4 {
