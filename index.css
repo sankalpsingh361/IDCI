@@ -30,10 +30,13 @@ body {
   color: black;
 }
 .slide-navbar {
-  padding-top: 20px;
+  padding-top: 0px;
 }
+.slide-navbar .logo {
+  font-size: 30px;
+}
+
 header {
-  /* z-index: 10000; */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -61,17 +64,6 @@ header .navigation {
   position: relative;
   display:flex;
 }
-.hamburger{
-  display: flex;
-}
-span{
-  font-size: 28px;
-  cursor: pointer;
-  margin:0 -20px;
-  display: none;
-  transition: 0.5s;
-}
-
 header .navigation li {
   list-style: none;
   margin-left: 30px;
@@ -104,6 +96,7 @@ header .navigation li a:hover {
 .vary1:hover {
   background: rgb(255, 255, 255);
 }
+
 .div-sub {
   display: flex;
 }
@@ -1001,7 +994,7 @@ header .navigation li a:hover {
     margin-right: 100px;
   }
   header {
-    padding: 0px 30px;
+    padding: 15px 30px;
   }
   header.sticky {
     padding: 0px 30px;
@@ -1016,8 +1009,14 @@ header .navigation li a:hover {
 
 @media screen and (max-width: 975px) {
   header {
-    padding: 0px 30px;
+    padding: 15px 30px;
   }
+  .vary1{
+    padding: 5px 10px;
+  }
+  .header .navigation li {
+    margin-left: 20px;
+}
   .text2 {
     font-size: 30px;
   }
@@ -1074,28 +1073,13 @@ header .navigation li a:hover {
     font-size: 30px;
     font-weight: bold;
   }
-  header .navigation{
-    display:none;
-  }
-  span {
-    display:block;
-  }
-  header .navigation li{
-    padding-top: 5px;
-    padding-bottom: 10px;
-  }
-  .navigation{
-    padding-bottom: 10px;
-    
-  }
 }
-
 @media screen and (max-width: 750px) {
   .wall {
     display: none;
   }
   header {
-    padding: 0px 30px;
+    padding: 15px 30px;
   }
   header .logo {
     font-size: 1.5em;
