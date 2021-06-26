@@ -378,6 +378,18 @@ header .navigation li a:hover {
   color: #1ba083;
   padding-right: 8px;
 }
+.sub2 {
+  font-size: 18px;
+  font-weight: 400;
+  color: #111;
+  padding-bottom: 10px;
+}
+.sub2 .fa {
+  font-size: 18px;
+  font-weight: 400;
+  color: #1ba083;
+  padding-right: 8px;
+}
 .sub1 {
   font-size: 18px;
   font-weight: 400;
@@ -1209,15 +1221,15 @@ header .navigation li a:hover {
 
 @media screen and (max-width: 502px) {
   .text2 {
-    font-size: 24px;
+    font-size: 28px;
     line-height: 28px;
   }
   .ab {
-    font-size: 13px;
+    font-size: 15px;
     padding-bottom: 20px;
   }
   .btn {
-    font-size: 12px;
+    font-size: 14px;
     color: #fff;
   }
   .symbol-bar {
@@ -1248,6 +1260,7 @@ header .navigation li a:hover {
     align-items: center;
   }
   .us {
+    padding-left: 0px;
     font-size: 20px;
     text-decoration: underline;
   }
@@ -1256,6 +1269,9 @@ header .navigation li a:hover {
   }
   .intent {
     font-size: 14px;
+  }
+  .about .intent{
+    padding-left: 0px;
   }
   .date2 {
     padding-right: 5px;
@@ -1274,8 +1290,14 @@ header .navigation li a:hover {
     font-weight: bold;
     font-size: 16px;
   }
+  .sub2 {
+    padding-top: 10px;
+    font-weight: bold;
+    font-size: 16px;
+  }
   .smile {
     padding-bottom: 60px;
+
   }
   .ready {
     padding-top: 80px;
@@ -1292,6 +1314,7 @@ header .navigation li a:hover {
     font-size: 20px;
   }
   .intent1 {
+    padding-left: 0px;
     font-size: 14px;
   }
   .btn1 {
@@ -1314,6 +1337,7 @@ header .navigation li a:hover {
     flex-wrap: wrap;
   }
   .but {
+    margin-left: 0px;
     font-size: 12px;
   }
   .btn9 {
@@ -1354,5 +1378,24 @@ header .navigation li a:hover {
   }
   header{
     padding: 15px 0px;
+  }
+  .over {
+    padding-left: 0px;
+  }
+  .para32{
+    padding-top: 0px;
+  }
+  .para321{
+    padding-top: 0px;
+  }
+  .co1 {
+    display: none;
+  }
+  .co2 {
+    margin-bottom: 15px;
+    margin-right: 10px;
+  }
+  .div-sub {
+    justify-content: center;
   }
 }
