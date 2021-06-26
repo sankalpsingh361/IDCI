@@ -1179,6 +1179,10 @@ header .navigation li a:hover {
     flex-direction: column;
     font-size: 12px;
   }
+  .techno {
+    padding-top: 20px;
+    padding-bottom: 0px;
+  }
   .smile {
     flex-direction: column;
   }
@@ -1325,6 +1329,10 @@ header .navigation li a:hover {
   }
   .better {
     flex-direction: column;
+  }
+  .techno {
+    padding-top: 20px;
+    padding-bottom: 0px;
   }
   .sdt{
     display: none;
